@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://garmarketing.vercel.app/sitemap.xml
