@@ -13,13 +13,14 @@
   --font-body: 'DM Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; max-width: 100%; }
 
 body {
   font-family: var(--font-body);
   background: var(--black);
   color: var(--white);
   overflow-x: hidden;
+  max-width: 100%;
   cursor: none;
 }
 

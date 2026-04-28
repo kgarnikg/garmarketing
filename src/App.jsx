@@ -660,7 +660,7 @@ function About({lang}){
         <div className="about-grid">
           <motion.div className="about-left" ref={ref} initial={{opacity:0,x:-60}} animate={inView?{opacity:1,x:0}:{}} transition={{duration:0.9,ease:[0.16,1,0.3,1]}}>
             <span className="section-label">{t.aboutLabel}</span>
-            <h2 className="section-title">Garik <span className="text-accent">Katanian</span></h2>
+            <h2 className="section-title">Garik</h2>
             <p className="about-bio">{t.aboutBio1}</p>
             <p className="about-bio">{t.aboutBio2}</p>
             <div className="about-langs">

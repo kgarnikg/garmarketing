@@ -1056,12 +1056,15 @@
   .card-desc { font-size: 0.85rem; }
 
   .results-grid { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
-  .result-card { padding: 1.25rem 1rem; }
-  .result-num { font-size: 1.8rem; }
-  .result-label { font-size: 0.8rem; }
-  .result-desc { font-size: 0.72rem; }
+  .result-card { padding: 1rem 0.875rem; }
+  .result-num { font-size: 1.5rem; word-break: break-word; overflow-wrap: break-word; line-height: 1.1; }
+  .result-label { font-size: 0.75rem; line-height: 1.35; }
+  .result-desc { font-size: 0.68rem; line-height: 1.4; }
 
   .timeline { padding: 1.25rem; }
+  .timeline-steps { flex-direction: column; gap: 1.25rem; }
+  .step-arrow { display: none; }
+  .timeline-step { width: 100%; }
   .step-num { font-size: 1.5rem; }
   .step-title { font-size: 0.9rem; }
   .step-desc { font-size: 0.78rem; }
